@@ -51,8 +51,8 @@ def get_height_average(heroes_list: list):
 def get_max_and_min_weight(heroes_list: list) -> tuple:
     _err(heroes_list=heroes_list)
 
-    max_weight, max_weight_name = get_by_value(heroes_list=heroes_list, value="min", key="peso")
-    min_weight, min_weight_name = get_by_value(heroes_list=heroes_list, value="max", key="peso")
+    max_weight, max_weight_name = get_by_value(heroes_list=heroes_list, value="max", key="peso")
+    min_weight, min_weight_name = get_by_value(heroes_list=heroes_list, value="min", key="peso")
 
     return max_weight, max_weight_name, min_weight, min_weight_name
 
