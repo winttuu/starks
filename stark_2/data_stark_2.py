@@ -46,5 +46,17 @@ heroes_list = [
         "color_pelo": "Violeta",
         "fuerza": "7",
         "inteligencia": "above average"
+    },
+    {
+        "nombre": "Llam Azul",
+        "identidad": "Mistery Woman but Azul",
+        "empresa": "Independiente",
+        "altura": "124.0",
+        "peso": "60.0",
+        "genero": "F",
+        "color_ojos": "Azul",
+        "color_pelo": "Azul",
+        "fuerza": "7",
+        "inteligencia": "above average"
     }
 ]
